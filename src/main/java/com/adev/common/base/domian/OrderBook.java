@@ -19,9 +19,9 @@ public class OrderBook {
 
     private String currencyPair;
 
-    private List<List<BigDecimal>> bids;
+    private List<PriceAndVolume> bids;
 
-    private List<List<BigDecimal>> asks;
+    private List<PriceAndVolume> asks;
 
     private Long timestamp;
 }
