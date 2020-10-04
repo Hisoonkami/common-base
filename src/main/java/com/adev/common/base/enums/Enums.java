@@ -39,4 +39,12 @@ public class Enums {
             return null;
         }
     }
+
+    public enum AccountBookType{
+        INCOME,PAY
+    }
+
+    public enum LocalMessageState{
+        FAIL,SUCCESS
+    }
 }
